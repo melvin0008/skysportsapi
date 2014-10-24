@@ -11,7 +11,7 @@ from flask import request
 from flask import url_for
 
 
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='')
 
 root_url = 'http://www1.skysports.com/'
 
