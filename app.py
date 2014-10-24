@@ -30,7 +30,8 @@ def get_latest():
     return json.dumps(latest)
 
 @app.route('/')
-    return 
+def index():
+    return app.send_static_file('index.html')
 
 @app.route('/sky/getnews/<string:category>/v1.0/', methods=['GET'])
 def get_news(category):
