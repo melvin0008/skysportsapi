@@ -29,6 +29,8 @@ def get_latest():
     		latest[sport]= {"link":a.attrs.get('href'),"text":a.get_text()} 
     return json.dumps(latest)
 
+@app.route('/')
+    return 
 
 @app.route('/sky/getnews/<string:category>/v1.0/', methods=['GET'])
 def get_news(category):
