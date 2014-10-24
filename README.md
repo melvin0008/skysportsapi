@@ -1,0 +1,4 @@
+skysportsapi
+============
+
+Unofficial Skysports Api
