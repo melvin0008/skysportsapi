@@ -53,6 +53,7 @@ def get_news(category):
         latest.append(item)
     return json.dumps(latest)
 
+
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
@@ -60,7 +61,7 @@ def not_found(error):
 
 #print(get_latest())
 #print(get_news('golf'))
-
+#print (get_soup())
 
 if __name__ == '__main__':
     app.run(debug=True)
