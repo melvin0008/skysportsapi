@@ -22,8 +22,7 @@ https://skysportsapi.herokuapp.com/
 			<li>cricket => "/sky/getnews/cricket/v1.0/"</li>
 			<li>tennis => "/sky/getnews/tennis/v1.0/"</li>
 			<li>golf => "/sky/getnews/golf/v1.0/"</li>		
-			<li>football => "/sky/getnews/football/v1.0/"</li>
-			 
+			<li>football => "/sky/getnews/football/v1.0/"</li>	 
 		</ul>
 		<li> Get Team News for your team "/sky/< name of sport >/getteamnews/< name of team >/v1.0"</li>
 		<ul>
@@ -57,9 +56,7 @@ https://skysportsapi.herokuapp.com/
 		<li>All Bundesliga Teams</li>
 		<li>All Scottish Teams</li>
 		<li>International Teams </li>
-		
 		</ul>
-		
 	</p>
 	<p>
 
