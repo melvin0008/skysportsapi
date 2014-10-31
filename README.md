@@ -5,8 +5,6 @@ Unofficial Skysports Api
 
 https://skysportsapi.herokuapp.com/
 
-
-<!doctype html>
 <html>
 <head>
 	<title>Unofficial Skysports Api</title>
@@ -122,7 +120,7 @@ List of Cricket Teams
 		<li>All World Cup Teams</li>
 	</ul>
 </p>
-	<p>More Sports and leagues coming</p>
+More Sports and leagues coming
 	
 
 
