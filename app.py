@@ -53,9 +53,9 @@ def get_news(index_url):
         latest.append(item)
     return latest
 
-@app.route('/sky/getnews/<string:category>/v1.0/', methods=['GET'])
-def get_sportsnews(category):
-    index_url=root_url+ category +"/news/"
+@app.route('/sky/getnews/<string:name_of_sport>/v1.0/', methods=['GET'])
+def get_sportsnews(name_of_sport):
+    index_url=root_url+ name_of_sport +"/news/"
     latest=[]
     latest=get_news(index_url)
     return json.dumps(latest)    
