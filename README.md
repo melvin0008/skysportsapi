@@ -66,14 +66,14 @@ Three Main REST operations
 
 ####List Of teams included in Football:
 		 
-+All English Premiership Teams 
-+All Championship Teams 
-+All Spanish La Liga Teams 
-+All Serie A Teams 
-+All Ligue 1 Teams 
-+All Bundesliga Teams 
-+All Scottish Teams 
-International Teams  
++All English Premiership Teams   
++All Championship Teams   
++All Spanish La Liga Teams   
++All Serie A Teams   
++All Ligue 1 Teams   
++All Bundesliga Teams   
++All Scottish Teams   
+International Teams    
 		 
 	 
 	 
