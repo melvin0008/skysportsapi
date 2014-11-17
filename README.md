@@ -66,14 +66,14 @@ Three Main REST operations
 
 ####List Of teams included in Football:
 		 
-*All English Premiership Teams 
-*All Championship Teams 
-*All Spanish La Liga Teams 
-*All Serie A Teams 
-*All Ligue 1 Teams 
-*All Bundesliga Teams 
-*All Scottish Teams 
-*International Teams  
++All English Premiership Teams 
++All Championship Teams 
++All Spanish La Liga Teams 
++All Serie A Teams 
++All Ligue 1 Teams 
++All Bundesliga Teams 
++All Scottish Teams 
+International Teams  
 		 
 	 
 	 
@@ -122,19 +122,19 @@ Three Main REST operations
  
       
 	 
- ####List of Rugby Union Teams
+####List of Rugby Union Teams
  
-*British and Irish Lions 
-*All Six Nations i.e England Wales France Ireland Italy Scotland 
-*All teams of Aviva Championship 
-*All teams of Rugb Championship 
-*Guiness Pro 12 Teams 
-*All Top 14 Teams 
++British and Irish Lions 
++All Six Nations i.e England Wales France Ireland Italy Scotland 
++All teams of Aviva Championship 
++All teams of Rugb Championship 
++Guiness Pro 12 Teams 
++All Top 14 Teams 
  
  
 ####List Of Rugby Teams
-*All Super League Teams 
-*All World Cup Teams      
++All Super League Teams 
++All World Cup Teams      
 	 
  
 More Sports and leagues coming
