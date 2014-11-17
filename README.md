@@ -34,7 +34,7 @@ Three Main REST operations
 | `name_of_sport` | string | Name of the Sport |
 		 
 ###Get Team News for your team 
-#### GET `/sky/< name of sport >/getteamnews/< name of team >/v1.0/` 
+#### GET `/sky/< sport >/getteamnews/< team >/v1.0/` 
 		 
 			for eg. 
 			*cricket and india => "/sky/cricket/getteamnews/india/v1.0/" 
@@ -51,14 +51,14 @@ Three Main REST operations
 #####For other sports please replace football with one of these
 		 
 ######Sports Supported are: Football Cricket Golf Tennis Rugby-League Rugby-Union Boxing Horse-Racing 
-			*cricket => "/sky/getnews/cricket/v1.0/" 
-			*tennis => "/sky/getnews/tennis/v1.0/" 
-			*golf => "/sky/getnews/golf/v1.0/" 		
-			*horse-racing => "/sky/getnews/horse-racing/v1.0/" 
-			*football => "/sky/getnews/football/v1.0/" 
-			*rugby-league => "/sky/getnews/rugby-league/v1.0/" 
-			*rugby-union => "/sky/getnews/rugby-union/v1.0/" 
-			*boxing => "/sky/getnews/boxing/v1.0/" 
+			* cricket => "/sky/getnews/cricket/v1.0/" 
+			* tennis => "/sky/getnews/tennis/v1.0/" 
+			* golf => "/sky/getnews/golf/v1.0/" 		
+			* horse-racing => "/sky/getnews/horse-racing/v1.0/" 
+			* football => "/sky/getnews/football/v1.0/" 
+			* rugby-league => "/sky/getnews/rugby-league/v1.0/" 
+			* rugby-union => "/sky/getnews/rugby-union/v1.0/" 
+			* boxing => "/sky/getnews/boxing/v1.0/" 
 		 
 	 
 **If the Team Name contains spaces replace with '-' for example**
@@ -79,8 +79,8 @@ Three Main REST operations
 	 
 
 ####List of Cricket Teams
-*All Indian Premier League Teams 
-*Internationals 
+* All Indian Premier League Teams 
+* Internationals 
 <!--
      Afghanistan 
      Australia 
@@ -100,7 +100,7 @@ Three Main REST operations
      West Indies 
      Zimbabwe 
 -->
- *Domestic
+* Domestic
 <!--
      Derbyshire 
      Durham 
@@ -124,17 +124,17 @@ Three Main REST operations
 	 
 ####List of Rugby Union Teams
  
-+British and Irish Lions 
-+All Six Nations i.e England Wales France Ireland Italy Scotland 
-+All teams of Aviva Championship 
-+All teams of Rugb Championship 
-+Guiness Pro 12 Teams 
-+All Top 14 Teams 
++ British and Irish Lions 
++ All Six Nations i.e England Wales France Ireland Italy Scotland 
++ All teams of Aviva Championship 
++ All teams of Rugb Championship 
++ Guiness Pro 12 Teams 
++ All Top 14 Teams 
  
  
 ####List Of Rugby Teams
-+All Super League Teams 
-+All World Cup Teams      
++ All Super League Teams 
++ All World Cup Teams      
 	 
  
 More Sports and leagues coming
