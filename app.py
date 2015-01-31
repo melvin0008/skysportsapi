@@ -19,15 +19,15 @@ sports=["football","cricket","golf","rugby-league","boxing","tennis","f1","darts
 
 @app.route('/sky/getlatest/v1.0/', methods=['GET'])
 def get_latest():
-    index_url = root_url + "latest-news"+"/"	
+    index_url = root_url + "latest-news"+"/"
     response = requests.get(index_url)
     latest={}
-    
+
     soup = bs4.BeautifulSoup(response.text)
     for sport in sports:
         info=[]
     	for a in soup.select('div.site-wrapper a[href^=http://www1.skysports.com/'+sport+'/]'):
-    		info.append({"link":a.attrs.get('href'),"text":a.get_text()}) 
+    		info.append({"link":a.attrs.get('href'),"text":a.get_text()})
         latest[sport]=info
     return json.dumps(latest)
 
@@ -41,7 +41,6 @@ def get_news(index_url):
     item={}
     soup = bs4.BeautifulSoup(response.text)
     allnews=soup.findAll("div" ,{"class":"news-list__item news-list__item--show-thumb-bp30"})
-    #soup.select(
     for news in allnews:
         #latest.append(news.noscript.img.attrs.get('src'))
         #latest.append(news.find("div",{"class":"news-list__body"}).p.get_text())
@@ -58,7 +57,7 @@ def get_sportsnews(name_of_sport):
     index_url=root_url+ name_of_sport +"/news/"
     latest=[]
     latest=get_news(index_url)
-    return json.dumps(latest)    
+    return json.dumps(latest)
 
 
 @app.route('/sky/<string:sport>/getteamnews/<string:team>/v1.0/', methods=['GET'])
@@ -66,18 +65,12 @@ def get_teamsnews(sport,team):
     index_url=root_url+ sport+"/teams/"+team+"/news/"
     latest=[]
     latest=get_news(index_url)
-    return json.dumps(latest) 
-
-
+    return json.dumps(latest)
 
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
 
-
-#print(get_latest())
-#print(get_news('golf'))
-#print (get_soup())
 
 if __name__ == '__main__':
     app.run(debug=True)
