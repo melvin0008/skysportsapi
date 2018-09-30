@@ -15,10 +15,10 @@ Usage
 Three Main REST operations
 ====================
 	
-###Get latest News 
-####GET `/sky/getlatest/v1.0/`
+### Get latest News 
+#### GET `/sky/getlatest/v1.0/`
 
-###Get individual Sport news 
+### Get individual Sport news 
 #### GET `/sky/getnews/< name_of_sport >/v1.0/` 
 		
 			for eg. 
@@ -33,7 +33,7 @@ Three Main REST operations
 | ---- | ---- | ----------- |
 | `name_of_sport` | string | Name of the Sport |
 		 
-###Get Team News for your team 
+### Get Team News for your team 
 #### GET `/sky/< sport >/getteamnews/< team >/v1.0/` 
 		 
 			for eg. 
@@ -48,9 +48,9 @@ Three Main REST operations
 | `team` | string | Name of the Team |
 
 	 
-#####For other sports please replace football with one of these
+##### For other sports please replace football with one of these
 		 
-######Sports Supported are: Football Cricket Golf Tennis Rugby-League Rugby-Union Boxing Horse-Racing 
+###### Sports Supported are: Football Cricket Golf Tennis Rugby-League Rugby-Union Boxing Horse-Racing 
 			* cricket => "/sky/getnews/cricket/v1.0/" 
 			* tennis => "/sky/getnews/tennis/v1.0/" 
 			* golf => "/sky/getnews/golf/v1.0/" 		
@@ -62,9 +62,9 @@ Three Main REST operations
 		 
 	 
 **If the Team Name contains spaces replace with '-' for example**
-######For Borussia Dortmund news => /sky/football/getteamnews/borussia-dortmund/v1.0   
+###### For Borussia Dortmund news => /sky/football/getteamnews/borussia-dortmund/v1.0   
 
-####List Of teams included in Football:
+#### List Of teams included in Football:
 		 
 + All English Premiership Teams   
 + All Championship Teams   
@@ -78,7 +78,7 @@ Three Main REST operations
 	 
 	 
 
-####List of Cricket Teams
+#### List of Cricket Teams
 * All Indian Premier League Teams 
 * Internationals 
 <!--
@@ -122,7 +122,7 @@ Three Main REST operations
  
       
 	 
-####List of Rugby Union Teams
+#### List of Rugby Union Teams
  
 + British and Irish Lions 
 + All Six Nations i.e England Wales France Ireland Italy Scotland 
@@ -132,7 +132,7 @@ Three Main REST operations
 + All Top 14 Teams 
  
  
-####List Of Rugby Teams
+#### List Of Rugby Teams
 + All Super League Teams 
 + All World Cup Teams      
 	 
