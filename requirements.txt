@@ -1,5 +1,5 @@
 asn1crypto==0.24.0
-beautifulsoup4==4.3.2
+beautifulsoup4==4.6.3
 cffi==1.11.5
 Click==7.0
 cryptography==2.3.1
