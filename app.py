@@ -26,8 +26,8 @@ def get_latest():
     soup = bs4.BeautifulSoup(response.text)
     for sport in sports:
         info=[]
-    	for a in soup.select('div.site-wrapper a[href^=https://www.skysports.com/'+sport+'/]'):
-    		info.append({"link":a.attrs.get('href'),"text":a.get_text()})
+        for a in soup.select('div.site-wrapper a[href^=https://www.skysports.com/'+sport+'/]'):
+            info.append({"link":a.attrs.get('href'),"text":a.get_text()})
         latest[sport]=info
     return json.dumps(latest)
 
